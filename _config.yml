@@ -1,0 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: DS3 Lab
+description: "Data Sciences, Data Systems, Data Services"
+keywords: "Research, computer science, data sciences, data systems, data services"
+
+# Site settings
+url: http://ds3lab.org
+#baseurl: "/dotX"
+# baseurl: ""
+
+# Author settings
+author:
+  name      : Ce Zhang
+  job       : Assistant Professor
+  bio       : ""
+  thumb     : /images/author.jpg
+  email     : ce.zhang@inf.ethz.ch
+  url       : http://nandomoreira.me
+  github    : http://github.com/ds3lab
+  twitter   : ""
+  facebook  : ""
+  linkedin  : ""
+
+# google_analytics: UA-52446115-1
+repo: http://github.com/ds3lab
+
+# comments
+disqus_shortname: "czhang"
